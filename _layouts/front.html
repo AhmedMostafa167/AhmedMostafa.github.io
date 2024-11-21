@@ -1,16 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
 
-{% include head.html %}
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Ahmed Mostafa Portfolio - NLP Engineer">
+  <meta name="author" content="Ahmed Mostafa">
+  <title>Ahmed Mostafa Portfolio</title>
+  {% include head.html %}
+</head>
 
 <body id="page-top">
   {% include nav.html %}
-  {% include header.html %}
-  {% include call-to-action.html %}
-  {% include services.html %}
-  {% include portfolio.html %}
-  {% include aside.html %}
-  {% include contact.html %}
+
+  <!-- Header Section -->
+  <header>
+    <div class="container">
+      <h1>Ahmed Mostafa</h1>
+      <p>Computer Science Graduate | NLP Engineer</p>
+      <p>Passionate about building intelligent systems that leverage natural language processing and machine learning.</p>
+    </div>
+  </header>
+
+  <!-- Call to Action Section -->
+  <section id="call-to-action">
+    <div class="container">
+      <h2>Looking for an NLP Engineer?</h2>
+      <p>Check out my projects and experience below, or get in touch via the contact form.</p>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services">
+    <div class="container">
+      <h2>What I Offer</h2>
+      <ul>
+        <li>End-to-end NLP pipelines: Data preprocessing, model training, and evaluation</li>
+        <li>Building intelligent chatbots and RAG-based systems</li>
+        <li>Expertise in vector databases, LangChain, and LLM integrations</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section id="portfolio">
+    <div class="container">
+      <h2>My Projects</h2>
+      <ul>
+        <li><a href="https://www.kaggle.com/ahmedmostafa">Kaggle Notebooks</a>: Explore my machine learning and NLP projects.</li>
+        <li><a href="https://github.com/ahmedmostafa">GitHub Repositories</a>: Check out my code and open-source contributions.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Aside Section -->
+  <aside>
+    <div class="container">
+      <h3>Get in Touch</h3>
+      <p> I'd love to connect if you're hiring or want to collaborate!</p>
+    </div>
+  </aside>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <p>Email: <a href="mailto:newahhmed1672022@gmail.com">your-email@example.com</a></p>
+      <p>GitHub: <a href="https://github.com/AhmedMostafa167">github.com/ahmedmostafa</a></p>
+      <p>LinkedIn: <a href="https://linkedin.com/in/ahmed-mostafa-dorra">linkedin.com/in/ahmedmostafa</a></p>
+    </div>
+  </section>
+
   {% include scripts.html %}
 </body>
 
